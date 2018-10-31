@@ -1,8 +1,8 @@
 
 $(".navs").hover(function(){
-	$(".sub").stop().slideDown();
+	$(".sub", $(this)).stop().slideDown();
 }, function(){
-	$(".sub").stop().slideUp();
+	$(".sub", $(this)).stop().slideUp();
 });
 
 var n = 0;

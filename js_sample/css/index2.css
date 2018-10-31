@@ -6,10 +6,10 @@ div, ul, li, ol, h1, h2, h3, h4, h5 {margin:0; padding:0; list-style:none;}
 .wrap {width:1200px; margin:0 auto;}
 .header {width:100%; height:100px; background:#ccc; line-height:100px; position:relative;}
 .logo {float:left;}
-.navs {float:right; width:600px; cursor:pointer;}
+.navs {float:right; width:600px; cursor:pointer; position:relative;}
 .nav {width:600px;}
 .nav > li {float:left; width:150px;}
-.sub { width:1200px; background-color:rgba(0, 0, 0, 0.3); position:absolute; top:100px; left:0; display:none; z-index:60000;}
+.sub { width:1200px; background-color:rgba(0, 0, 0, 0.5); position:absolute; top:100px; right:0; display:none; z-index:60000; color:#fff;}
 .sub > ul {float:right; width:150px;}		
 .sub > ul > li {line-height:60px;}
 .sub > ul > li:hover {background:#999;}

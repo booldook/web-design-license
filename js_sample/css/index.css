@@ -7,7 +7,7 @@ div, ul, li, ol, h1, h2, h3, h4, h5 {margin:0; padding:0; list-style:none;}
 .header {width:100%; height:100px; background:#ccc; line-height:100px;}
 .logo {float:left;}
 .navs {float:right;}
-.nav {width:150px; float:left; cursor:pointer;}
+.nav {width:150px; float:left; cursor:pointer; border:1px solid #f00}
 .nav > div {height:100px; background:#ccc;}
 .nav > ul {display:none;}
 .nav > ul > li {height:60px; background:#ccc; line-height:60px;}
