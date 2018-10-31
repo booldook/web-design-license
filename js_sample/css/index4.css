@@ -1,0 +1,19 @@
+html, body {width:100%; height:100%; font-size:16px; margin:0; padding:0; text-align:left; color:#000;}
+div, ul, li, ol, h1, h2, h3, h4, h5 {margin:0; padding:0; list-style:none;}
+
+.clear:after {clear:both; content:""; display:block;}
+
+.wrap {width:1200px; margin:0 auto;}
+.header {width:100%; height:100px; background:#ccc;}
+.logo {float:left;}
+.section {width:100%; height:800px;}
+.navs {width:200px; height:800px; float:left;}
+.contents {width:1000px; height:800px; float:left;}
+
+.nav {background:#eee; cursor:pointer; position:relative;}
+.nav > div {padding:1rem; background:#999;}
+.nav > ul {position:absolute; left:200px; top:0; width:200px; background:#eee; display:none;}
+.nav > ul > li {padding:0.5rem 0.5rem 0.5rem 1.5rem;}
+.nav > ul > li:hover {background:#ccc;}
+
+

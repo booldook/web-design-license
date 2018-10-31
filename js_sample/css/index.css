@@ -1,0 +1,14 @@
+html, body {width:100%; height:100%; font-size:16px; margin:0; padding:0; text-align:left; color:#000;}
+div, ul, li, ol, h1, h2, h3, h4, h5 {margin:0; padding:0; list-style:none;}
+
+.clear:after {clear:both; content:""; display:block;}
+
+.wrap {width:1200px; margin:0 auto;}
+.header {width:100%; height:100px; background:#ccc; line-height:100px;}
+.logo {float:left;}
+.navs {float:right;}
+.nav {width:150px; float:left; cursor:pointer;}
+.nav > div {height:100px; background:#ccc;}
+.nav > ul {display:none;}
+.nav > ul > li {height:60px; background:#ccc; line-height:60px;}
+.nav > ul > li:hover {background:#999;}

@@ -1,0 +1,9 @@
+html, body {width:100%; height:100%; font-size:16px; margin:0; padding:0; text-align:left; color:#000;}
+div, ul, li, ol, h1, h2, h3, h4, h5 {margin:0; padding:0; list-style:none;}
+
+.clear:after {clear:both; content:""; display:block;}
+
+.section {width:1000px; height:400px; margin:0 auto;}
+.banner {width:1000px; height:400px; position:relative; overflow:hidden;}
+.banner > ul {}
+.banner > ul > li {position:absolute; top:0; left:0; z-index:1;}

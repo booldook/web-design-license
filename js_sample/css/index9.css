@@ -1,0 +1,14 @@
+html, body {width:100%; height:100%; font-size:16px; margin:0; padding:0; text-align:left; color:#000;}
+div, ul, li, ol, h1, h2, h3, h4, h5 {margin:0; padding:0; list-style:none;}
+
+.clear:after {clear:both; content:""; display:block;}
+.wrap {padding:50px; text-align:center;}
+
+#modal_bg {position:absolute; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.5); display:none; top:0; left:0;}
+#modal_wrap {position:absolute; width:100%; height:100%; display:none; top:0; left:0;}
+#modal_wrap > div {display:table-cell; text-align:center; vertical-align:middle;}
+#modal_content {width:300px; height:200px; background:#f90; text-align:center; line-height:200px; border:1px solid #999; margin:0 auto; position:relative;}
+#modal_btn {padding:6px; position:absolute; right:0; bottom:0;}
+
+
+
